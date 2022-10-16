@@ -28,7 +28,7 @@ btn.pack(side='top', fill='x', padx=5, pady=5) # 水平方向填充，水平垂�
 
 root.mainloop()
 '''
-
+ 
 # 事件函数
 '''
 from tkinter import *
@@ -857,7 +857,7 @@ root.mainloop()
 
 # 画板
 # 主要利用 canvas 组件
-'''
+
 from tkinter import *
 import tkinter.colorchooser as tc
 
@@ -936,9 +936,10 @@ class MyApp(Tk):
 if __name__ == '__main__':
     app = MyApp()
     app.mainloop()
-'''
+
 
 # 集成matplotlib
+'''
 import numpy as np
 import matplotlib
 
@@ -1018,3 +1019,4 @@ class MyApp(Tk):
 if __name__ == '__main__':
     app = MyApp()
     app.mainloop()
+'''
